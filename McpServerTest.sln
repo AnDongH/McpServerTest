@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McpServerTest", "McpServerTest\McpServerTest.csproj", "{322DC933-51F2-4B01-A9F3-D0080A69A7F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McpWebServerTest", "McpWebServerTest\McpWebServerTest.csproj", "{3CAE16DD-84A9-4DD3-9814-956EF81FF680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelConvertMcp", "ExcelConvertMcp\ExcelConvertMcp.csproj", "{D986C121-5DAA-4078-9FE2-010E5747AEC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{322DC933-51F2-4B01-A9F3-D0080A69A7F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{322DC933-51F2-4B01-A9F3-D0080A69A7F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{322DC933-51F2-4B01-A9F3-D0080A69A7F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{322DC933-51F2-4B01-A9F3-D0080A69A7F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CAE16DD-84A9-4DD3-9814-956EF81FF680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CAE16DD-84A9-4DD3-9814-956EF81FF680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CAE16DD-84A9-4DD3-9814-956EF81FF680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CAE16DD-84A9-4DD3-9814-956EF81FF680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D986C121-5DAA-4078-9FE2-010E5747AEC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D986C121-5DAA-4078-9FE2-010E5747AEC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D986C121-5DAA-4078-9FE2-010E5747AEC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D986C121-5DAA-4078-9FE2-010E5747AEC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
