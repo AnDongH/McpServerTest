@@ -1,7 +1,6 @@
 using System.ComponentModel;
 using Microsoft.Extensions.AI;
 using ModelContextProtocol;
-using ModelContextProtocol.Protocol.Types;
 using ModelContextProtocol.Server;
 
 namespace ExcelConvertMcp.Prompts;

@@ -15,7 +15,7 @@
       <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.1" />
       <PackageReference Include="Microsoft.Data.Sqlite" Version="9.0.4" />
       <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.4" />
-      <PackageReference Include="ModelContextProtocol" Version="0.1.0-preview.8" />
+      <PackageReference Include="ModelContextProtocol" Version="0.3.0-preview.1" />
       <PackageReference Include="MySqlConnector" Version="2.4.0" />
       <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
       <PackageReference Include="Npgsql" Version="9.0.3" />

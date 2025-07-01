@@ -59,7 +59,7 @@
             },
             "ModelContextProtocol": {
               "target": "Package",
-              "version": "[0.1.0-preview.8, )"
+              "version": "[0.3.0-preview.1, )"
             },
             "MySqlConnector": {
               "target": "Package",

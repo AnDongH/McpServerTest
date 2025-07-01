@@ -2,7 +2,7 @@
 using ExcelConvertMcp.Resources;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using ModelContextProtocol.Protocol.Types;
+using ModelContextProtocol.Protocol;
 
 namespace ExcelConvertMcp;
 
@@ -19,13 +19,13 @@ class Program
             .WithPromptsFromAssembly()
             .WithListResourcesHandler((ctx, ct) =>
             {
-                return Task.FromResult(new ListResourcesResult
+                return new ValueTask<ListResourcesResult>(Task.FromResult(new ListResourcesResult
                 {
                     Resources =
                     [
                         new Resource { Name = "ExcelResources", Description = "엑셀 -> DB 변환을 위한 엑셀 데이터들", Uri = "test_file:///Users/fblood53/Test/Excel" }
                     ]
-                });
+                }));
             })
             .WithReadResourceHandler(async (ctx, ct) =>
             {
@@ -42,13 +42,13 @@ class Program
                     subscriptions.Add(uri);
                 }
 
-                return Task.FromResult(new EmptyResult());
+                return ValueTask.FromResult(new EmptyResult());
             })
             .WithUnsubscribeFromResourcesHandler((ctx, ct) =>
             {
                 var uri = ctx.Params?.Uri;
                 if (uri is not null) subscriptions.Remove(uri);
-                return Task.FromResult(new EmptyResult());
+                return ValueTask.FromResult(new EmptyResult());
             });
 
         builder.Services.AddSingleton(_ =>

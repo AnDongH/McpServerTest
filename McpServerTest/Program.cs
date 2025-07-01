@@ -1,7 +1,7 @@
 ﻿using System.Net.Http.Headers;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using ModelContextProtocol.Protocol.Types;
+using ModelContextProtocol.Protocol;
 
 namespace McpServerTest;
 
@@ -17,7 +17,7 @@ class Program
             .WithPromptsFromAssembly()
             .WithListResourcesHandler((ctx, ct) =>
             {
-                return Task.FromResult(new ListResourcesResult
+                return ValueTask.FromResult(new ListResourcesResult
                 {
                     Resources =
                     [

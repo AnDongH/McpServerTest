@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("McpWebServerTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88c101ea63c65b83226313d6a4bb83328152d84a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ddf09fe255fb33f9471a225a4eb45d2552adbdb7")]
 [assembly: System.Reflection.AssemblyProductAttribute("McpWebServerTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("McpWebServerTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
